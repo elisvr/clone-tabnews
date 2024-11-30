@@ -66,8 +66,34 @@ Executar o comando no terminal com o nome designado no arquivo anterior
 
 Deixar o ambiente de desenvolvimento com saída pública
     na aba ports
-    right click > port visibility > public
+        right click > port visibility > public
     segue print abaixo
     obs -> por padrão o codespaces utiliza a porta 3000
 ```
 ![alt text](doc-images/image-1.png)
+
+# dia 5
+```
+Comandos git
+    verificar "imagens"/commits do repositório
+        git log --stat
+    verificar arquivos em que estão no estágio de modified
+        git status
+    commitar mudanças
+        git add . || git add nome_do_arquivo
+        git commit -m 
+
+
+
+Estágios dos arquivos
+    modified
+        todos os arquivos que são modificados durante as sessões de programação
+    staged
+        arquivos destacados para realização do novo commit, se necessário nem todos os arquivos que foram modificados precisam estar como staged
+    commit
+        
+    untracked
+        arquivos que não estão sendo rastreados para os demais estágios
+        geralmente são arquivos novos que nunca passaram pelo repositório
+
+```
