@@ -112,9 +112,17 @@ Continuação sobre git
         verifica as branches existentes no repositório
     git push
         envia os commit locais para o repositório online
+    git push -f
+        forma criminosa de enviar arquivos, usar com MUITA cautela
+        por exemplo, caso um commit tenha sido enviado para o origin mas se faz necessario um amend no mesmo para manter tudo no mesmo commit, pode-se usar o --force
     git pull
         traz os arquivos presentes no origin com os ajustes mais recentes para o local
 
 OBS -> local/main é a branch clonada do github/gitlab...
-       origin/main é a branch original presente online
+       origin/main é a branch original presente online    
+```
+
+# dia 7
+```
+Primeiro deploy na Vercel realizado com sucesso!
 ```
