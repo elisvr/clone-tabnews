@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Iniciando a jornada em webdev</h1>
+    return <h1>Alterando vacilo enviado para o origin no mesmo commit</h1>
 }
 
 //export default define o "entrypoint"
