@@ -1,9 +1,6 @@
 # clone-tabnews
 Fui convencido pelo Teló
 
-# clone-tabnews
-Fui convencido pelo Teló
-
 # dia 3
 ```
 checar versão do node
@@ -22,4 +19,9 @@ instalar next e react
     npm install next@13.1.6
     npm install react@18.2.0
     npm install react-dom@18.2.0
+
+Comentários extra curso
+    Quebrei o repositório com um commit de 400 mil linhas fazendo push da pasta node_modules
+    Foi preciso aprender sobre gitignore
+    https://www.freecodecamp.org/news/gitignore-file-how-to-ignore-files-and-folders-in-git/
 ```
