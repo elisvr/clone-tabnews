@@ -1,6 +1,8 @@
 # clone-tabnews
 Fui convencido pelo Teló
 
+## num futuro próximo passarei aplicando Markdown pra deixar essa doc menos horrível, por hora segue o baile
+
 # dia 3
 ```
 Checar versão do node
@@ -76,14 +78,20 @@ Deixar o ambiente de desenvolvimento com saída pública
 ```
 Comandos git
     verificar "imagens"/commits do repositório
+        git log
         git log --stat
+        git log --oneline
+
     verificar arquivos em que estão no estágio de modified
         git status
     commitar mudanças
         git add . || git add nome_do_arquivo
-        git commit -m 
-
-
+            adiciona todos os arquivos ou arquivos específicos para o estágio staged
+        git commit -m "mensagem com os resumos das alterações"
+            realiza o commit dos arquivos adicionados
+        git commmit --amend
+            se for necessário realizar algum ajuste adicional nos arquivos antes do push sem gerar um commit adicional, --amend sem nada puxará o último commit
+            usar o --amend em um projeto onde muitas pessos estão alterando os arquivos pode gerar conflitos (com os arquivos e com os colegas)
 
 Estágios dos arquivos
     modified
@@ -91,9 +99,22 @@ Estágios dos arquivos
     staged
         arquivos destacados para realização do novo commit, se necessário nem todos os arquivos que foram modificados precisam estar como staged
     commit
-        
+        arquivos prontos para serem enviados "de volta ao repositório"
     untracked
         arquivos que não estão sendo rastreados para os demais estágios
         geralmente são arquivos novos que nunca passaram pelo repositório
+```
 
+# dia 6
+```
+Continuação sobre git
+    git branch
+        verifica as branches existentes no repositório
+    git push
+        envia os commit locais para o repositório online
+    git pull
+        traz os arquivos presentes no origin com os ajustes mais recentes para o local
+
+OBS -> local/main é a branch clonada do github/gitlab...
+       origin/main é a branch original presente online
 ```
