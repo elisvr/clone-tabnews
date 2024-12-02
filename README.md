@@ -144,3 +144,35 @@ Impressora 3D
 
 Ambos modelos tem momentos específicos para aplicação
 ```
+
+# dia 9
+```
+Organização de tarefas
+Nv1 = Ser lembrado individualmente
+    -custo de produção
+    -tempo de aquecimento
+    Ex: post-its, bullet journal físico
+
+Nv2 = Ser lembrado em grupo
+    Ex: Kanban
+
+Nv3 = Expandir conhecimento
+    Ex: Jira, Trello
+
+Nv4 = Gerar métricas
+    Ex: Timesheet
+    Usar métricas para avaliar como o négocio está pulando barreiras ao invés de medir apenas os colaboradores, visão do produto como um todo
+
+Relação tudo vs nada
+Organizar corretamente as tarefas, cada uma no seu devido nível pode evitar a analysis paralisys e dar prosseguimento mesmo que com passos pequenos na direção correta rumo à conclusão dos projetos, independente do tamanho/complexidade deles
+
+Milestones(Epics) & Issues(Tasks)
+- Gerar épicos com o máximo de tasks possíveis e com o tamanho correto (impossível mensurar com exatidão, mas buscar aproximação máxima)
+- Gerar tasks pequenas, a execução de várias delas ao invés uma task maior gera a sensação de avanço de forma mais eficiente
+```
+Exemplo de mensuração de tarefas no todo
+|                   | Semana 1 | Semana 2 | Semana 3 | Semana 4 |
+| --------          | -------  | -------  | -------  | -------  |
+| Total de tarefas  | 50       | 75       | 100      | 140      |
+| Executadas        | 30       | 50       | 70       | 90       |
+| % de conclusão    | 60%      | 67%      | 70%      | 64%      |
