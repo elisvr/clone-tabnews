@@ -215,3 +215,26 @@ Definir a auto-formatação ao salvar
 Desativar auto save
   Settings > Auto save > off
 ```
+
+# dia 11
+
+```
+DNS = Domain Name System
+  Em background  ao acessar um site o computador faz um request direto a um dos servidores root de DNS que converte os nomes dos sites nos IPs reais e retorna-os para o computador, que só ai com o endereço IP acessa o servidor do serviço final
+  SERVER DNS <----------> PC <----------> SERVER DO SITE DESEJADO
+  https://root-servers.org/
+
+OBS -> os domínios são verificados nos root servers com o endereço invertido e utilizando o o modelo "Fully Qualified Domain Name FQDN" que inclui mais um ponto no fim ficando dessa forma:
+  normal = tabnews.com.br.
+  root server = .br.com.tabnews
+  . inicial = root domain
+  br. = Top-Level Domain "TLD"
+    ccTLDs = Country Code Top-Level Domains
+      .br .ai .ca .pt
+    gTLDs = Generic Top-Level Domains
+      .com .net .org .dev
+
+Para criar um gTLD é necessário um processo junto a ICANN (Internet Coprporation for Assigned Names and Numbers) para geração personalizada, ex: .bradesco
+
+A propagação dos DNS podem demorar pois é necessário substituir os novos valores no TTL (Time To Live) que é um cache com função de otimizar a velocidade nas requisições
+```
