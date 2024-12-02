@@ -214,5 +214,4 @@ Definir a auto-formatação ao salvar
   Settings > Format on save > Check
 Desativar auto save
   Settings > Auto save > off
-Criar arquivo .prettierignore com o mesmo conteúdo do .gitignore
 ```
