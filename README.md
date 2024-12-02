@@ -126,3 +126,21 @@ OBS -> local/main é a branch clonada do github/gitlab...
 ```
 Primeiro deploy na Vercel realizado com sucesso!
 ```
+
+# dia 8
+```
+Modelos orgânico vs impressora 3D
+Orgânico
+    produção "célula a célula"
+    aproveitando erros e acertos
+    sentimento de comunidade underground
+    reduz overengineering e feature creep
+
+Impressora 3D
+    produção direta ao ponto
+    sem etapas de feedback
+    sentimento de software de engessado
+    pode gerar overengineering e feature creep
+
+Ambos modelos tem momentos específicos para aplicação
+```
