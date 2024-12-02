@@ -169,6 +169,7 @@ Organizar corretamente as tarefas, cada uma no seu devido nível pode evitar a a
 Milestones(Epics) & Issues(Tasks)
 - Gerar épicos com o máximo de tasks possíveis e com o tamanho correto (impossível mensurar com exatidão, mas buscar aproximação máxima)
 - Gerar tasks pequenas, a execução de várias delas ao invés uma task maior gera a sensação de avanço de forma mais eficiente
+- Nas tasks adicionar pontos entregáveis em formato de checkboxes
 ```
 Exemplo de mensuração de tarefas no todo
 |                   | Semana 1 | Semana 2 | Semana 3 | Semana 4 |
@@ -176,3 +177,16 @@ Exemplo de mensuração de tarefas no todo
 | Total de tarefas  | 50       | 75       | 100      | 140      |
 | Executadas        | 30       | 50       | 70       | 90       |
 | % de conclusão    | 60%      | 67%      | 70%      | 64%      |
+
+# dia 10
+```
+Estilização de código(padronização)
+Aproveitar a oportunidade de projetos pequenos para padronizar desde o ínicio, evitando vícios de código.
+Em casos de bases grandes/legadas de código, rezar pra você não ser o responsável por padronizar tudo kkkk
+
+Para salvar as configurações do editor
+    Account > Settings Sync On > Logar com Github
+
+Instalar extensão "EditorConfig for VS Code"
+Criar arquivo .editorconfig na raiz
+```
